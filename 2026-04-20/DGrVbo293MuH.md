@@ -11,7 +11,7 @@
 **必须立即处理，否则可能导致密钥泄露和费用被盗刷。**
 
 1.  **API Key 硬编码泄露**
-    *   **问题描述**：在多个文件中发现了硬编码的智谱 AI API Key（`85dc5867c9ea4a4b8939b8693f09fd92.JpHDlOJuQcWZOofY`）。
+    *   **问题描述**：在多个文件中发现了硬编码的智谱 AI API Key。
     *   **涉及文件**：
         *   `openai-code-review-sdk/src/main/java/com/xenofon/middleware/sdk/OpenAICodeReview.java`
         *   `openai-code-review-sdk/src/test/java/com/xenofon/middleware/sdk/test/ApiTest.java`
